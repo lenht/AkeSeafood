@@ -198,7 +198,7 @@ const products = [
   { cat: "other", en: "Jellyfish pack", vi: "Sứa gói", zh: "海蜇" },
   { cat: "other", en: "Jellyfish legs, 5 kg carton", vi: "Chân sứa thùng 5kg", zh: "海蜇脚 一箱五公斤" },
   { cat: "shellfish", en: "Medium oyster meat, 9-13 pieces/kg", vi: "Hàu ruột vừa 9-13 con/kg", zh: "生蚝肉中号 9-13只/kg" },
-  { cat: "shellfish", en: "Fat oyster meat", vi: "Hàu ruột béo", zh: "生蚝肉肥" },
+  { cat: "shellfish", en: "Fat oyster meat", vi: "Hàu ruột béo", zh: "大生蚝" },
   { cat: "shellfish", en: "Oyster meat pack", vi: "Hàu ruột", zh: "生蚝肉" },
   { cat: "shellfish", en: "Clean sand-free venus clam", vi: "Chip chip sạch", zh: "无沙花甲" },
   { cat: "shellfish", en: "Large white clam", vi: "Nghêu trắng to", zh: "白蛤" },
