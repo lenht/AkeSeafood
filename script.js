@@ -260,7 +260,16 @@ function itemName(product) {
 }
 
 function secondaryNames(product) {
-  return [product.zh, product.vi, product.en].filter((name, index, arr) => name && name !== itemName(product) && arr.indexOf(name) === index);
+  const seen = new Set([itemName(product)]);
+  return [
+    { lang: "zh", name: product.zh },
+    { lang: "vi", name: product.vi },
+    { lang: "en", name: product.en },
+  ].filter((entry) => {
+    if (!entry.name || seen.has(entry.name)) return false;
+    seen.add(entry.name);
+    return true;
+  });
 }
 
 function normalizeSearchText(value) {
@@ -448,7 +457,9 @@ function renderProductCard(product) {
       </div>
       <div class="product-copy">
         <h3>${escapeHtml(itemName(product))}</h3>
-        <p>${secondaryNames(product).map(escapeHtml).join(" · ")}</p>
+        <p>${secondaryNames(product)
+          .map((entry) => `<span class="name-${entry.lang}">${escapeHtml(entry.name)}</span>`)
+          .join(" · ")}</p>
       </div>
       <div class="product-meta">
         <span class="pill">${t(product.cat)}</span>
