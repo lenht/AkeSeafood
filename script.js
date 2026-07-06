@@ -11,6 +11,12 @@ const translations = {
       "Clean, live, and frozen seafood for restaurants, resellers, and buyers in Da Nang. Availability changes with the catch, season, size, and live condition, so choose what you need and request the latest quote directly.",
     browseItems: "Browse seafood",
     requestPrices: "Request prices",
+    heroStatOne: "Daily sourcing",
+    heroStatOneCopy: "Fresh stock changes by catch, season, and size.",
+    heroStatTwo: "Live & frozen",
+    heroStatTwoCopy: "Options for restaurants, resellers, and buyers.",
+    heroStatThree: "Direct quote",
+    heroStatThreeCopy: "Choose items and receive the latest price.",
     catalogKicker: "Seafood catalog",
     catalogTitle: "Current availability",
     catalogNote: "Prices are not displayed online. Select items and request the latest quote.",
@@ -49,6 +55,7 @@ const translations = {
     formspreeSetup: "Formspree is ready in the website code. Add your Formspree endpoint in script.js to send requests automatically.",
     contactNeeded: "Please add at least one contact method.",
     noResults: "No seafood matched your search.",
+    itemCount: "items",
   },
   vi: {
     brand: "Ake Seafood",
@@ -62,6 +69,12 @@ const translations = {
       "Hải sản sạch, tươi sống và đông lạnh cho nhà hàng, đại lý và khách mua tại Đà Nẵng. Hàng thay đổi theo chuyến, mùa, size và tình trạng sống, nên hãy chọn sản phẩm bạn cần và yêu cầu giá mới nhất trực tiếp.",
     browseItems: "Xem hải sản",
     requestPrices: "Yêu cầu giá",
+    heroStatOne: "Lấy hàng mỗi ngày",
+    heroStatOneCopy: "Hàng thay đổi theo chuyến, mùa và size.",
+    heroStatTwo: "Tươi sống & đông lạnh",
+    heroStatTwoCopy: "Phù hợp cho nhà hàng, đại lý và khách mua.",
+    heroStatThree: "Báo giá trực tiếp",
+    heroStatThreeCopy: "Chọn sản phẩm và nhận giá mới nhất.",
     catalogKicker: "Catalog hải sản",
     catalogTitle: "Hàng hiện có",
     catalogNote: "Giá không hiển thị online. Chọn sản phẩm và yêu cầu báo giá mới nhất.",
@@ -100,6 +113,7 @@ const translations = {
     formspreeSetup: "Formspree đã được chuẩn bị trong mã website. Thêm endpoint Formspree trong script.js để tự động gửi yêu cầu.",
     contactNeeded: "Vui lòng thêm ít nhất một kênh liên hệ.",
     noResults: "Không tìm thấy sản phẩm phù hợp.",
+    itemCount: "sản phẩm",
   },
   zh: {
     brand: "阿科海鲜",
@@ -112,6 +126,12 @@ const translations = {
     heroCopy: "为岘港餐厅、批发商和买家供应干净、鲜活和冷冻海鲜。供应会根据捕捞、季节、规格和鲜活状态变化，请选择需要的产品并直接索取最新报价。",
     browseItems: "浏览海鲜",
     requestPrices: "索取价格",
+    heroStatOne: "每日采购",
+    heroStatOneCopy: "库存会根据捕捞、季节和规格变化。",
+    heroStatTwo: "鲜活与冻品",
+    heroStatTwoCopy: "适合餐厅、批发商和买家。",
+    heroStatThree: "直接报价",
+    heroStatThreeCopy: "选择产品并获取最新价格。",
     catalogKicker: "海鲜目录",
     catalogTitle: "当前供应",
     catalogNote: "线上不显示价格。请选择产品并索取最新报价。",
@@ -149,6 +169,7 @@ const translations = {
     formspreeSetup: "网站代码已准备好 Formspree。请在 script.js 中添加您的 Formspree endpoint，即可自动发送需求。",
     contactNeeded: "请至少填写一种联系方式。",
     noResults: "没有找到匹配的海鲜。",
+    itemCount: "个产品",
   },
 };
 
@@ -456,7 +477,7 @@ function renderCategoryPanel(category, items) {
       <div class="category-panel-header">
         <div>
           <h3>${t(category)}</h3>
-          <span>${items.length} ${items.length === 1 ? "item" : "items"}</span>
+          <span>${items.length} ${t("itemCount")}</span>
         </div>
         ${
           hasToggle
