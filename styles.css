@@ -1385,11 +1385,14 @@ html[lang="zh-CN"] .request-copy h2 {
 
 @media (max-width: 900px) {
   .category-panel-header {
-    align-items: stretch;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 14px;
   }
 
   .panel-toggle {
+    flex: 0 0 auto;
     width: fit-content;
   }
 }
@@ -1401,13 +1404,27 @@ html[lang="zh-CN"] .request-copy h2 {
   }
 
   .category-panel-header {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
     border-radius: 22px;
     padding: 14px;
   }
 
   .category-panel-header > div {
+    min-width: 0;
     min-height: 48px;
     padding-left: 60px;
+  }
+
+  .category-panel-header h3 {
+    font-size: clamp(1.05rem, 6vw, 1.32rem);
+  }
+
+  .panel-toggle {
+    min-height: 36px;
+    padding: 7px 14px;
   }
 
   .category-panel-header > div::before {
