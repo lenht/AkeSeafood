@@ -57,9 +57,9 @@
     "id": "wild-large-babylon-snail-30-pieces",
     "cat": "shellfish",
     "visualType": "snail",
-    "en": "Wild Large Babylon Snail, 30 pcs",
-    "vi": "Ốc hương cồ thiên nhiên, 30 con",
-    "zh": "野生大花螺，30只",
+    "en": "Wild Large Babylon Snail, 30 pcs/kg",
+    "vi": "Ốc hương cồ thiên nhiên, 30 con/kg",
+    "zh": "野生大花螺，30只/公斤",
     "image": "wild-large-babylon-snail-30-pieces.jpg"
   },
   {
@@ -72,13 +72,13 @@
     "image": "cleaned-yellow-spiny-sea-cucumber.jpeg"
   },
   {
-    "id": "black-sea-nail-snail",
+    "id": "screw-snail",
     "cat": "shellfish",
     "visualType": "snail",
-    "en": "Black Sea Nail Snail",
+    "en": "Screw Snail",
     "vi": "Ốc đinh đen biển",
-    "zh": "黑海钉螺",
-    "image": "black-sea-nail-snail.jpeg"
+    "zh": "海钉螺",
+    "image": "screw-snail.jpeg"
   },
   {
     "id": "sea-grapes",
@@ -102,9 +102,9 @@
     "id": "live-abalone-7-10-pieces",
     "cat": "shellfish",
     "visualType": "abalone",
-    "en": "Live Abalone, 7-10 pcs",
-    "vi": "Bào ngư sống, 7-10 con",
-    "zh": "鲜活鲍鱼，7-10只",
+    "en": "Live Abalone, 7-10 pcs/kg",
+    "vi": "Bào ngư sống, 7-10 con/kg",
+    "zh": "鲜活鲍鱼，7-10只/公斤",
     "image": "live-abalone-7-10-pieces.jpg"
   },
   {
@@ -261,13 +261,13 @@
     "image": "black-clam.jpeg"
   },
   {
-    "id": "purple-noble-clam",
+    "id": "purple-clam",
     "cat": "shellfish",
     "visualType": "shell",
-    "en": "Purple Noble Clam",
+    "en": "Purple Clam",
     "vi": "Nghêu tím",
-    "zh": "贵妃蚌",
-    "image": "purple-noble-clam.jpeg"
+    "zh": "紫蛤",
+    "image": "purple-clam.jpeg"
   },
   {
     "id": "disc-clam-assorted-sizes",
@@ -471,9 +471,9 @@
     "id": "grade-1-flower-crab-4-6-pieces",
     "cat": "crabShrimp",
     "visualType": "crab",
-    "en": "Grade 1 Flower Crab, 4-6 pcs",
-    "vi": "Ghẹ loại 1, 4-6 con",
-    "zh": "一级花蟹，4-6只",
+    "en": "Grade 1 Flower Crab, 4-6 pcs/kg",
+    "vi": "Ghẹ loại 1, 4-6 con/kg",
+    "zh": "一级花蟹，4-6只/公斤",
     "image": "grade-1-flower-crab-4-6-pieces.jpg"
   },
   {
