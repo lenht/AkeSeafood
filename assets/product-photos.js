@@ -50,11 +50,11 @@ window.productPhotos = [
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
   },
   {
-    "src": "assets/products/08-sharkfintin9.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File%3ASharkFinTin9.jpg",
-    "author": "No machine-readable author provided. Sun Tung Lok BOZZ assumed (based on copyright claims).",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    "src": "assets/products/manual-seacucumber-holothuria-scabra.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Garlic_bread_sea_cucumber_(Holothuria_scabra).jpg",
+    "author": "Ria Tan (wildsingapore)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
   },
   {
     "src": "assets/products/09-bomal-sukhoe.png",
@@ -78,9 +78,9 @@ window.productPhotos = [
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
   {
-    "src": "assets/products/12-korea-jeju-haenyeo-05.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File%3AKorea-Jeju-Haenyeo-05.jpg",
-    "author": "by karendotcom127",
+    "src": "assets/products/manual-abalone-haliotis-midae.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Haliotis_midae_(South_African_abalone)_(South_Africa)_1_(24118032071).jpg",
+    "author": "Derek Keats",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
   },
@@ -204,11 +204,11 @@ window.productPhotos = [
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
-    "src": "assets/products/manual-clam-clams-with-shell.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File%3AClams_with_shell.jpg",
-    "author": "Andikan Efiok Eduok",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    "src": "assets/products/manual-clam-purple-hard-clam.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hard_Clam_(Mercenaria_mercenaria)_(16114743060).jpg",
+    "author": "USFWS/Smithsonian Environmental Research Center (verify exact credit on file page)",
+    "license": "CC BY 2.0 (verify on file page before use)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
   },
   {
     "src": "assets/products/manual-clam-clams-with-shell.jpg",
@@ -225,16 +225,16 @@ window.productPhotos = [
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
-    "src": "assets/products/33-nyst-1878-atrina-pectinata.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File%3ANyst_1878_-_Atrina_pectinata.jpg",
-    "author": "Scanned by Tom Meijer",
-    "license": "Public domain",
-    "licenseUrl": "pd"
+    "src": "assets/products/manual-mussel-horse-mussel.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Modiolus_modiolus_0001.jpg",
+    "author": "Llez",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   {
     "src": "assets/products/34-dried-scallops-conpoy.jpg",
     "source": "https://commons.wikimedia.org/wiki/File%3ADried_scallops_(Conpoy).jpg",
-    "author": "François Nguyen",
+    "author": "Fran\u00e7ois Nguyen",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
   },
@@ -288,32 +288,32 @@ window.productPhotos = [
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
-    "src": "assets/products/manual-squid-squid-caught-by-local-fishermen.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File%3ASquid_caught_by_local_fishermen.jpg",
-    "author": "Firmansyah Syamsuddin",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    "src": "assets/products/manual-cuttlefish-golden-cuttlefish.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Golden_Cuttlefish_(Sepia_esculenta)_(8475830927).jpg",
+    "author": "verify exact credit on file page",
+    "license": "verify on file page before use",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
   },
   {
-    "src": "assets/products/manual-squid-squid-caught-by-local-fishermen.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File%3ASquid_caught_by_local_fishermen.jpg",
-    "author": "Firmansyah Syamsuddin",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    "src": "assets/products/manual-squid-bigfin-reef-squid.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sepioteuthis_lessoniana_(Bigfin_reef_squid).jpg",
+    "author": "verify exact credit on file page",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   {
-    "src": "assets/products/manual-squid-squid-caught-by-local-fishermen.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File%3ASquid_caught_by_local_fishermen.jpg",
-    "author": "Firmansyah Syamsuddin",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    "src": "assets/products/manual-squid-bigfin-reef-squid.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sepioteuthis_lessoniana_(Bigfin_reef_squid).jpg",
+    "author": "verify exact credit on file page",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   {
-    "src": "assets/products/manual-squid-squid-caught-by-local-fishermen.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File%3ASquid_caught_by_local_fishermen.jpg",
-    "author": "Firmansyah Syamsuddin",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    "src": "assets/products/manual-squid-bigfin-reef-squid.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sepioteuthis_lessoniana_(Bigfin_reef_squid).jpg",
+    "author": "verify exact credit on file page",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   {
     "src": "assets/products/manual-squid-squid-caught-by-local-fishermen.jpg",
@@ -423,7 +423,7 @@ window.productPhotos = [
   {
     "src": "assets/products/61-washington-dc-zoo-macrobrachium-rosenbergii-1.jpg",
     "source": "https://commons.wikimedia.org/wiki/File%3AWashington_DC_Zoo_-_Macrobrachium_rosenbergii_1.jpg",
-    "author": "Jarek Tuszyński",
+    "author": "Jarek Tuszy\u0144ski",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   }

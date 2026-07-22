@@ -1,0 +1,551 @@
+[
+  {
+    "id": "grouper",
+    "cat": "fish",
+    "visualType": "fish",
+    "en": "Grouper",
+    "vi": "Cá mú",
+    "zh": "石斑鱼",
+    "image": "grouper.jpeg"
+  },
+  {
+    "id": "pomfret",
+    "cat": "fish",
+    "visualType": "fish",
+    "en": "Pomfret",
+    "vi": "Cá chim",
+    "zh": "鲳鱼",
+    "image": "pomfret.jpg"
+  },
+  {
+    "id": "butter-clam",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Butter Clam",
+    "vi": "Sò mỡ",
+    "zh": "黄蛤",
+    "image": "butter-clam.jpeg"
+  },
+  {
+    "id": "hoi-an-striped-clam",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Hoi An Striped Clam",
+    "vi": "Nghêu vằn Hội An",
+    "zh": "会安花蛤",
+    "image": "hoi-an-striped-clam.jpeg"
+  },
+  {
+    "id": "large-blood-cockle",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Large Blood Cockle",
+    "vi": "Sò huyết cồ",
+    "zh": "大血蛤",
+    "image": "large-blood-cockle.jpeg"
+  },
+  {
+    "id": "babylon-snail-by-size",
+    "cat": "shellfish",
+    "visualType": "snail",
+    "en": "Babylon Snail, Assorted Sizes",
+    "vi": "Ốc hương các size",
+    "zh": "花螺（多种规格）",
+    "image": "babylon-snail-by-size.jpeg"
+  },
+  {
+    "id": "wild-large-babylon-snail-30-pieces",
+    "cat": "shellfish",
+    "visualType": "snail",
+    "en": "Wild Large Babylon Snail, 30 pcs",
+    "vi": "Ốc hương cồ thiên nhiên, 30 con",
+    "zh": "野生大花螺，30只",
+    "image": "wild-large-babylon-snail-30-pieces.jpg"
+  },
+  {
+    "id": "cleaned-yellow-spiny-sea-cucumber",
+    "cat": "other",
+    "visualType": "cucumber",
+    "en": "Cleaned Yellow Spiny Sea Cucumber",
+    "vi": "Hải sâm gai vàng làm sạch",
+    "zh": "清洗黄刺海参",
+    "image": "cleaned-yellow-spiny-sea-cucumber.jpeg"
+  },
+  {
+    "id": "black-sea-nail-snail",
+    "cat": "shellfish",
+    "visualType": "snail",
+    "en": "Black Sea Nail Snail",
+    "vi": "Ốc đinh đen biển",
+    "zh": "黑海钉螺",
+    "image": "black-sea-nail-snail.jpeg"
+  },
+  {
+    "id": "sea-grapes",
+    "cat": "other",
+    "visualType": "seaweed",
+    "en": "Sea Grapes",
+    "vi": "Rong nho",
+    "zh": "海葡萄",
+    "image": "sea-grapes.jpeg"
+  },
+  {
+    "id": "frozen-abalone",
+    "cat": "shellfish",
+    "visualType": "abalone",
+    "en": "Frozen Abalone",
+    "vi": "Bào ngư đông lạnh",
+    "zh": "冷冻鲍鱼",
+    "image": "frozen-abalone.jpeg"
+  },
+  {
+    "id": "live-abalone-7-10-pieces",
+    "cat": "shellfish",
+    "visualType": "abalone",
+    "en": "Live Abalone, 7-10 pcs",
+    "vi": "Bào ngư sống, 7-10 con",
+    "zh": "鲜活鲍鱼，7-10只",
+    "image": "live-abalone-7-10-pieces.jpg"
+  },
+  {
+    "id": "large-ornate-spiny-lobster-over-1kg",
+    "cat": "crabShrimp",
+    "visualType": "lobster",
+    "en": "Large Ornate Spiny Lobster, Over 1 kg",
+    "vi": "Tôm hùm bông, trên 1 kg",
+    "zh": "大花龙，1公斤以上",
+    "image": "large-ornate-spiny-lobster-over-1kg.jpg"
+  },
+  {
+    "id": "frozen-crayfish-size-30-40",
+    "cat": "crabShrimp",
+    "visualType": "shrimp",
+    "en": "Frozen Crayfish, Size 30/40",
+    "vi": "Tôm hùm đất đông lạnh, size 30/40",
+    "zh": "冷冻小龙虾，30/40规格",
+    "image": "frozen-crayfish-size-30-40.jpeg"
+  },
+  {
+    "id": "live-crayfish-size-30-35",
+    "cat": "crabShrimp",
+    "visualType": "shrimp",
+    "en": "Live Crayfish, Size 30/35",
+    "vi": "Tôm hùm đất sống, size 30/35",
+    "zh": "鲜活小龙虾，30/35规格",
+    "image": "live-crayfish-size-30-35.jpeg"
+  },
+  {
+    "id": "geoduck-clam",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Geoduck",
+    "vi": "Ốc vòi voi",
+    "zh": "象拔蚌",
+    "image": "geoduck-clam.jpeg"
+  },
+  {
+    "id": "brown-turbot-1-3-1-8kg",
+    "cat": "fish",
+    "visualType": "fish",
+    "en": "Brown Turbot, 1.3-1.8 kg",
+    "vi": "Cá bơn nâu, 1.3-1.8 kg",
+    "zh": "多宝鱼，1.3-1.8公斤",
+    "image": "brown-turbot-1-3-1-8kg.jpeg"
+  },
+  {
+    "id": "red-grouper-1-1-5kg",
+    "cat": "fish",
+    "visualType": "fish",
+    "en": "Red Grouper, 1-1.5 kg",
+    "vi": "Cá mú đỏ, 1-1.5 kg",
+    "zh": "红星斑，1-1.5公斤",
+    "image": "red-grouper-1-1-5kg.jpeg"
+  },
+  {
+    "id": "crab-claws-size-65-80",
+    "cat": "crabShrimp",
+    "visualType": "crab",
+    "en": "Crab Claws, Size 65/80",
+    "vi": "Càng ghẹ, size 65/80",
+    "zh": "蟹钳，65/80规格",
+    "image": "crab-claws-size-65-80.jpeg"
+  },
+  {
+    "id": "drained-sea-grapes-pack",
+    "cat": "other",
+    "visualType": "seaweed",
+    "en": "Drained Sea Grapes",
+    "vi": "Rong nho tách nước",
+    "zh": "脱水海葡萄",
+    "image": "drained-sea-grapes-pack.avif"
+  },
+  {
+    "id": "green-mussels",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Green Mussels",
+    "vi": "Vẹm xanh",
+    "zh": "青口贝",
+    "image": "green-mussels.jpg"
+  },
+  {
+    "id": "jellyfish-pack",
+    "cat": "other",
+    "visualType": "jellyfish",
+    "en": "Jellyfish",
+    "vi": "Sứa",
+    "zh": "海蜇",
+    "image": "jellyfish-pack.jpeg"
+  },
+  {
+    "id": "jellyfish-legs-5kg-carton",
+    "cat": "other",
+    "visualType": "jellyfish",
+    "en": "Jellyfish Tentacles, 5 kg Carton",
+    "vi": "Chân sứa, thùng 5 kg",
+    "zh": "海蜇脚，5公斤/箱",
+    "image": "jellyfish-legs-5kg-carton.jpeg"
+  },
+  {
+    "id": "medium-oyster-meat-9-13-pieces",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Medium Oyster Meat, 9-13 pcs/kg",
+    "vi": "Ruột hàu cỡ vừa, 9-13 con/kg",
+    "zh": "中号生蚝肉，9-13只/公斤",
+    "image": "medium-oyster-meat-9-13-pieces.jpeg"
+  },
+  {
+    "id": "fat-oyster-meat",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Large Oyster Meat",
+    "vi": "Ruột hàu béo",
+    "zh": "大号生蚝肉",
+    "image": "fat-oyster-meat.jpeg"
+  },
+  {
+    "id": "oyster-meat-pack",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Oyster Meat",
+    "vi": "Ruột hàu",
+    "zh": "生蚝肉",
+    "image": "oyster-meat-pack.jpeg"
+  },
+  {
+    "id": "Desanded-clam",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Desanded Clams",
+    "vi": "Nghêu sạch cát",
+    "zh": "已吐沙的蛤蜊",
+    "image": "desanded-clam.jpg"
+  },
+  {
+    "id": "large-white-clam",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Large White Clam",
+    "vi": "Nghêu trắng lớn",
+    "zh": "大白文蛤",
+    "image": "large-white-clam.jpg"
+  },
+  {
+    "id": "black-clam",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Black Clam",
+    "vi": "Nghêu đen",
+    "zh": "黑文蛤",
+    "image": "black-clam.jpeg"
+  },
+  {
+    "id": "purple-noble-clam",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Purple Noble Clam",
+    "vi": "Nghêu tím",
+    "zh": "贵妃蚌",
+    "image": "purple-noble-clam.jpeg"
+  },
+  {
+    "id": "disc-clam-assorted-sizes",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Disc Clam, Assorted Sizes",
+    "vi": "Sò bung các size",
+    "zh": "硬壳蛤（多种规格)",
+    "image": "disc-clam-assorted-sizes.jpeg"
+  },
+  {
+    "id": "turgid-venus",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Turgid Venus",
+    "vi": "Sò mía / Nghêu hai cồi",
+    "zh": "钝缀锦蛤",
+    "image": "turgid-venus.jpg"
+  },
+  {
+    "id": "elongate-cockle-assorted-size",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Elongate Cockle, Assorted Sizes",
+    "vi": "Sò dương các size",
+    "zh": "长鸟尾蛤（多种规格）",
+    "image": "elongate-cockle-assorted-size.jpeg"
+  },
+  {
+    "id": "scallop-abductor-muscle",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Scallop Adductor Muscle",
+    "vi": "Cồi sò mai",
+    "zh": "江珧柱（栉江珧）",
+    "image": "scallop-abductor-muscle.jpg"
+  },
+  {
+    "id": "japanese-scallops",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Japanese Scallops",
+    "vi": "Sò điệp Nhật",
+    "zh": "日本扇贝",
+    "image": "japanese-scallops.jpg"
+  },
+  {
+    "id": "live-japanese-scallops",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Live Japanese Scallops",
+    "vi": "Sò điệp Nhật sống",
+    "zh": "鲜活日本扇贝",
+    "image": "live-japanese-scallops.jpg"
+  },
+  {
+    "id": "razor-clams",
+    "cat": "shellfish",
+    "visualType": "shell",
+    "en": "Razor Clams",
+    "vi": "Ốc móng tay",
+    "zh": "蛏子",
+    "image": "razor-clams.jpeg"
+  },
+  {
+    "id": "baby-octopus",
+    "cat": "squid",
+    "visualType": "squid",
+    "en": "Baby Octopus",
+    "vi": "Bạch tuộc baby",
+    "zh": "小章鱼",
+    "image": "baby-octopus.jpeg"
+  },
+  {
+    "id": "live-octopus",
+    "cat": "squid",
+    "visualType": "squid",
+    "en": "Live Octopus",
+    "vi": "Bạch tuộc sống",
+    "zh": "鲜活八爪鱼",
+    "image": "live-octopus.jpeg"
+  },
+  {
+    "id": "needle-squid-small-squid",
+    "cat": "squid",
+    "visualType": "squid",
+    "en": "Needle Squid / Small Squid",
+    "vi": "Mực ghim / Mực cơm",
+    "zh": "针鱿鱼 / 小鱿鱼",
+    "image": "needle-squid-small-squid.jpeg"
+  },
+  {
+    "id": "squid-with-roe",
+    "cat": "squid",
+    "visualType": "squid",
+    "en": "Squid with Roe",
+    "vi": "Mực trứng",
+    "zh": "带籽鱿鱼",
+    "image": "squid-with-roe.jpg"
+  },
+  {
+    "id": "cleaned-large-cuttlefish",
+    "cat": "squid",
+    "visualType": "squid",
+    "en": "Cleaned Large Cuttlefish",
+    "vi": "Mực nang làm sạch",
+    "zh": "大墨鱼（已清理）",
+    "image": "cleaned-large-cuttlefish.jpg"
+  },
+  {
+    "id": "frozen-bigfin-squid-300-400g",
+    "cat": "squid",
+    "visualType": "squid",
+    "en": "Frozen Bigfin Reef Squid, 300-400 g",
+    "vi": "Mực lá đông lạnh, 300-400 g",
+    "zh": "冷冻大鱿鱼，300-400克",
+    "image": "frozen-bigfin-squid-300-400g.jpg"
+  },
+  {
+    "id": "frozen-bigfin-squid-400g-1kg",
+    "cat": "squid",
+    "visualType": "squid",
+    "en": "Frozen Bigfin Reef Squid, 400 g-1 kg",
+    "vi": "Mực lá đông lạnh, 400 g-1 kg",
+    "zh": "冷冻大鱿鱼，400克-1公斤",
+    "image": "frozen-bigfin-squid.jpg"
+  },
+  {
+    "id": "fresh-bigfin-squid",
+    "cat": "squid",
+    "visualType": "squid",
+    "en": "Fresh Bigfin Reef Squid",
+    "vi": "Mực lá tươi",
+    "zh": "鲜大鱿鱼",
+    "image": "fresh-bigfin-squid.webp"
+  },
+  {
+    "id": "common-squid",
+    "cat": "squid",
+    "visualType": "squid",
+    "en": "Common Squid",
+    "vi": "Mực ống",
+    "zh": "鱿鱼",
+    "image": "common-squid.jpg"
+  },
+  {
+    "id": "cobia",
+    "cat": "fish",
+    "visualType": "fish",
+    "en": "Cobia",
+    "vi": "Cá bớp",
+    "zh": "军曹鱼",
+    "image": "cobia.jpeg"
+  },
+  {
+    "id": "red-tilapia",
+    "cat": "fish",
+    "visualType": "fish",
+    "en": "Red Tilapia",
+    "vi": "Cá diêu hồng",
+    "zh": "红罗非鱼",
+    "image": "red-tilapia.jpeg"
+  },
+  {
+    "id": "striped-snakehead",
+    "cat": "fish",
+    "visualType": "fish",
+    "en": "Striped Snakehead",
+    "vi": "Cá lóc",
+    "zh": "乌鳢",
+    "image": "striped-snakehead.jpeg"
+  },
+  {
+    "id": "cleaned-frog",
+    "cat": "other",
+    "visualType": "frog",
+    "en": "Cleaned Frog",
+    "vi": "Ếch làm sạch",
+    "zh": "净田鸡",
+    "image": "cleaned-frog.jpeg"
+  },
+  {
+    "id": "large-mud-crab-over-0-7kg",
+    "cat": "crabShrimp",
+    "visualType": "crab",
+    "en": "Large Mud Crab, Over 0.7 kg",
+    "vi": "Cua thịt lớn, trên 0.7 kg",
+    "zh": "大青蟹，0.7公斤以上",
+    "image": "large-mud-crab-over-0-7kg.jpeg"
+  },
+  {
+    "id": "three-spot-crab-mixed-red-blue",
+    "cat": "crabShrimp",
+    "visualType": "crab",
+    "en": "Three-Spot Crab, Mixed Red and Blue",
+    "vi": "Ghẹ ba chấm, đỏ xanh lẫn",
+    "zh": "三眼蟹，红蓝混装",
+    "image": "three-spot-crab.jpg"
+  },
+  {
+    "id": "grade-1-flower-crab-4-6-pieces",
+    "cat": "crabShrimp",
+    "visualType": "crab",
+    "en": "Grade 1 Flower Crab, 4-6 pcs",
+    "vi": "Ghẹ loại 1, 4-6 con",
+    "zh": "一级花蟹，4-6只",
+    "image": "grade-1-flower-crab-4-6-pieces.jpg"
+  },
+  {
+    "id": "brown-crab-over-0-7kg",
+    "cat": "crabShrimp",
+    "visualType": "crab",
+    "en": "Brown Crab, Over 0.7 kg",
+    "vi": "Cua nâu, trên 0.7 kg",
+    "zh": "面包蟹，0.7公斤以上",
+    "image": "brown-crab-over-0-7kg.jpeg"
+  },
+  {
+    "id": "live-black-tiger-shrimp",
+    "cat": "crabShrimp",
+    "visualType": "shrimp",
+    "en": "Live Black Tiger Shrimp",
+    "vi": "Tôm sú sống",
+    "zh": "鲜活黑虎虾",
+    "image": "live-black-tiger-shrimp.jpeg"
+  },
+  {
+    "id": "yellow-leg-mantis-shrimp",
+    "cat": "crabShrimp",
+    "visualType": "shrimp",
+    "en": "Yellow-Leg Mantis Shrimp",
+    "vi": "Tít chân vàng",
+    "zh": "黄脚皮皮虾",
+    "image": "yellow-leg-mantis-shrimp.jpeg"
+  },
+  {
+    "id": "white-shrimp",
+    "cat": "crabShrimp",
+    "visualType": "shrimp",
+    "en": "White Shrimp",
+    "vi": "Tôm bạc",
+    "zh": "明虾",
+    "image": "white-shrimp.jpeg"
+  },
+  {
+    "id": "fresh-chilled-black-tiger-shrimp-40-pieces",
+    "cat": "crabShrimp",
+    "visualType": "shrimp",
+    "en": "Fresh Chilled Black Tiger Shrimp, 40 pcs/kg",
+    "vi": "Tôm sú ngộp, 40 con/kg",
+    "zh": "鲜死黑虎虾，40只/公斤",
+    "image": "fresh-chilled-black-tiger-shrimp-40-pieces.jpeg"
+  },
+  {
+    "id": "fresh-chilled-black-tiger-shrimp-30-pieces",
+    "cat": "crabShrimp",
+    "visualType": "shrimp",
+    "en": "Fresh Chilled Black Tiger Shrimp 30 pcs/kg",
+    "vi": "Tôm sú ngộp, 30 con/kg",
+    "zh": "鲜死黑虎虾，30只/公斤",
+    "image": "fresh-chilled-black-tiger-shrimp-30-pieces.jpeg"
+  },
+  {
+    "id": "fresh-chilled-giant-river-prawn-12-pieces",
+    "cat": "crabShrimp",
+    "visualType": "shrimp",
+    "en": "Fresh Chilled Giant River Prawn, 12 pcs/kg",
+    "vi": "Tôm càng xanh ngộp, 12 con/kg",
+    "zh": "鲜死罗氏虾，12只/公斤",
+    "image": "fresh-chilled-giant-river-prawn-12-pieces.jpeg"
+  },
+  {
+    "id": "live-giant-river-prawn-8-10-pieces",
+    "cat": "crabShrimp",
+    "visualType": "shrimp",
+    "en": "Live Giant River Prawn, 8-10 pcs/kg",
+    "vi": "Tôm càng xanh sống, 8-10 con/kg",
+    "zh": "鲜活罗氏虾，8-10只/公斤",
+    "image": "live-giant-river-prawn-8-10-pieces.jpeg"
+  }
+]

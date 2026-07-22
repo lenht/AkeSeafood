@@ -47,9 +47,9 @@ html[lang="zh-CN"] {
   font-size: 106.25%;
 }
 
-html[lang="zh-CN"] body {
+/* html[lang="zh-CN"] body {
   font-family: "Kaiti SC", "KaiTi", "STKaiti", "BiauKai", "Noto Serif CJK SC", "Noto Sans SC", serif;
-}
+} */
 
 html[lang="zh-CN"] .brand-text,
 html[lang="zh-CN"] .name-vi,

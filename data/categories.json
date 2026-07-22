@@ -1,0 +1,32 @@
+[
+  {
+    "id": "fish",
+    "en": "Fish",
+    "vi": "Cá",
+    "zh": "鱼类"
+  },
+  {
+    "id": "shellfish",
+    "en": "Shellfish",
+    "vi": "Ốc, nghêu, sò",
+    "zh": "贝类"
+  },
+  {
+    "id": "crabShrimp",
+    "en": "Crab & shrimp",
+    "vi": "Cua & tôm",
+    "zh": "蟹虾"
+  },
+  {
+    "id": "squid",
+    "en": "Squid & octopus",
+    "vi": "Mực & bạch tuộc",
+    "zh": "鱿鱼章鱼"
+  },
+  {
+    "id": "other",
+    "en": "Other",
+    "vi": "Khác",
+    "zh": "其他"
+  }
+]
