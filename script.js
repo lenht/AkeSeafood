@@ -149,11 +149,12 @@ function secondaryNames(product) {
 // ============================================================
 
 function normalizeSearchText(value) {
-  return String(value)
+  return String(value ?? "")
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
-    .replace(/đ/g, "d");
+    .replace(/đ/g, "d")
+    .trim();
 }
 
 
@@ -745,88 +746,75 @@ function renderCategoryPanel(category, items) {
 // ============================================================
 
 function renderCatalog() {
+  const query = normalizeSearchText(searchInput.value);
 
-  if (!catalogGrid) {
+  const filtered = products.filter((product) => {
+    const matchesCategory =
+      activeCategory === "all" ||
+      product.cat === activeCategory;
+
+    const searchableText = [
+      product.id,
+      product.en,
+      product.vi,
+      product.zh,
+    ]
+      .filter(Boolean)
+      .join(" ");
+
+    const matchesSearch =
+      query === "" ||
+      normalizeSearchText(searchableText).includes(query);
+
+    return matchesCategory && matchesSearch;
+  });
+
+  if (!filtered.length) {
+    catalogGrid.innerHTML = `
+      <p class="empty-card">${escapeHtml(t("noResults"))}</p>
+    `;
     return;
   }
 
-
-  const query =
-    normalizeSearchText(
-      searchInput?.value?.trim() || ""
-    );
-
-
-  const filtered =
-    products.filter((product) => {
-
-      const matchesCategory =
-        activeCategory === "all" ||
-        product.cat === activeCategory;
-
-
-      const haystack =
-        normalizeSearchText(
-          [
-            product.en,
-            product.vi,
-            product.zh,
-          ]
-            .filter(Boolean)
-            .join(" ")
-        );
-
-
-      return (
-        matchesCategory &&
-        haystack.includes(query)
-      );
-
-    });
-
-
-  if (!filtered.length) {
-
+  // A specific category is selected:
+  // show ALL matching products immediately.
+  if (activeCategory !== "all") {
     catalogGrid.innerHTML = `
-      <p class="empty-card">
-        ${escapeHtml(t("noResults"))}
-      </p>
+      <section
+        class="category-panel category-panel-single"
+        data-category-panel="${activeCategory}"
+      >
+        <div class="category-panel-header">
+          <div>
+            <h3>${escapeHtml(categoryName(activeCategory))}</h3>
+            <span>
+              ${filtered.length} ${escapeHtml(t("itemCount"))}
+            </span>
+          </div>
+        </div>
+
+        <div class="category-panel-grid">
+          ${filtered.map(renderProductCard).join("")}
+        </div>
+      </section>
     `;
 
     return;
   }
 
+  // "All" selected:
+  // show all category panels with preview limits.
+  catalogGrid.innerHTML = categories
+    .map((category) => {
+      const items = filtered.filter(
+        (product) => product.cat === category.id
+      );
 
-  // categories.json controls category order
-
-  const visibleCategories =
-    categories.filter(
-      (category) =>
-        activeCategory === "all" ||
-        activeCategory === category.id
-    );
-
-
-  catalogGrid.innerHTML =
-    visibleCategories
-      .map((category) => {
-
-        const items =
-          filtered.filter(
-            (product) =>
-              product.cat === category.id
-          );
-
-
-        return items.length
-          ? renderCategoryPanel(
-              category.id,
-              items
-            )
-          : "";
-
-      })
-      .join("");
+      return items.length
+        ? renderCategoryPanel(category.id, items)
+        : "";
+    })
+    .join("");
 }
 
 
