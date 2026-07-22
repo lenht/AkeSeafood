@@ -518,7 +518,7 @@
     "visualType": "shrimp",
     "en": "Fresh Chilled Black Tiger Shrimp, 40 pcs/kg",
     "vi": "Tôm sú ngộp, 40 con/kg",
-    "zh": "鲜死黑虎虾，40只/公斤",
+    "zh": "鲜死黑虎虾，40只/公斤 (小)",
     "image": "fresh-chilled-black-tiger-shrimp-40-pieces.jpeg"
   },
   {
@@ -526,7 +526,7 @@
     "cat": "crabShrimp",
     "visualType": "shrimp",
     "en": "Fresh Chilled Black Tiger Shrimp 30 pcs/kg",
-    "vi": "Tôm sú ngộp, 30 con/kg",
+    "vi": "Tôm sú ngộp, 30 con/kg (大)",
     "zh": "鲜死黑虎虾，30只/公斤",
     "image": "fresh-chilled-black-tiger-shrimp-30-pieces.jpeg"
   },
